@@ -47,7 +47,7 @@ export async function fetchUser(id: number) {
   return user;
 }
 
-export async function createUser(user: Omit<UserType, 'id'>) {
+export async function createUser(user: CreateUserDTO) {
   await new Promise((resolve) => setTimeout(resolve, 1000));
 
   if (users.some((u) => u.email === user.email)) {
