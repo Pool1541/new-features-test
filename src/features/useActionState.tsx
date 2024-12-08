@@ -60,8 +60,8 @@ export default function ExampleOfUseActionState() {
     <>
       <h2>useFormStatus example</h2>
       <form action={submitAction} className='wrapper'>
-        <input type='text' name='name' placeholder='name' />
-        <input type='number' name='uid' placeholder='user id' />
+        <input type='text' name='name' placeholder='Your name' />
+        <input type='number' name='uid' placeholder='User id' />
         <button type='submit' disabled={isPending}>
           Update
         </button>

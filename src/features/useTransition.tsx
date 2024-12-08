@@ -37,8 +37,8 @@ export default function ExampleOfUseTransition() {
     <section>
       <h2>useTransition example</h2>
       <div className='wrapper'>
-        <input type='text' placeholder='Nombre' name='name' onChange={handleChange} />
-        <input type='text' placeholder='Correo electrónico' name='email' onChange={handleChange} />
+        <input type='text' placeholder='Your name' name='name' onChange={handleChange} />
+        <input type='text' placeholder='your.email@gmail.com' name='email' onChange={handleChange} />
         <button onClick={handleSubmit} disabled={isPending}>Crear usuario</button>
         {error && <p className='error'>{error}</p>}
         {response && <><p className='success'>{response}</p>  <ExampleOfUse /></>}

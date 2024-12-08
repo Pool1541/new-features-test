@@ -20,8 +20,8 @@ function Example() {
   return (
     <section>
       <h2>use API example</h2>
-      <ErrorBoundary fallback={<p>Ha ocurrido un error</p>}>
-        <Suspense fallback={<div>Cargando...</div>}>
+      <ErrorBoundary fallback={<p>An error has occurred</p>}>
+        <Suspense fallback={<div>Loading...</div>}>
           <UsersWrapper usersPromise={promise} />
         </Suspense>
       </ErrorBoundary>
