@@ -3,6 +3,7 @@
 import './App.css'
 import ExampleOfUse from './features/use'
 import ExampleOfUseActionState from './features/useActionState'
+import ExampleOfUseOptimistic from './features/useOptimistic'
 import ExampleOfUseTransition from './features/useTransition'
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
      <h1>React 19 is here! 🎊</h1>
       {/* <ExampleOfUse /> */}
       {/* <ExampleOfUseTransition /> */}
-      <ExampleOfUseActionState />
+      {/* <ExampleOfUseActionState /> */}
+      <ExampleOfUseOptimistic />
     </main>
   )
 }
