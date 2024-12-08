@@ -34,6 +34,7 @@ export default function ExampleOfUseOptimistic() {
 
   return (
     <>
+      <h2>useOptimistic example</h2>
       <form ref={formRef} action={formAction} className="wrapper">
         <input type="text" name="name"  placeholder="Your name"/>
         <input type="text" name="email"  placeholder="your.email@gmail.com"/>
