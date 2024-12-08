@@ -6,7 +6,7 @@ export type UserType = {
 
 export type CreateUserDTO = Omit<UserType, 'id'>;
 
-const users: UserType[] = [
+export const users: UserType[] = [
   {
     id: 1,
     name: 'John Doe',
